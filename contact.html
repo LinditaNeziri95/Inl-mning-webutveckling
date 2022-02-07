@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+    
+    <body>
+        <header class="header">
+            <br>
+        <h2>LINDITA NEZIRI</h2> <!--Härifrån och ända ner till min form, har jag kopierat från min index-fil för att skapa ett mönster och att användaren ska känna igen sig i designen. -->
+        </header>
+    
+        <div class="underrubrik">
+            UX designer based in Stockholm.
+        </div>
+    
+       <div class="topnav">
+           <nav>
+               <a href="index.html">Projects</a>
+               <a href="index.html">Back</a>
+               <a href="aboutme.html">About me</a>
+           </nav>
+       </div>
+
+       <section>
+        <form class="form" onsubmit="myFunction()"> <!--Här valde jag att göra ett formulär för att en besökare på webbsidan snabbt ska kunna kontakta mig.-->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="email">Enter email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+            <label for="msg">Type a message:</label><br>
+            <input type="text" id="msg" name="msg">
+            <br>
+            <br>
+            <button type="submit" id="btn1" onclick="this.innerHTML='Thank you!'">Send message!</button> <!-- Jag hade lite svårt att få allt att flyuta på under varandra, men insåg tillslut att det gick om man la allt under samma form-tagg-->
+            <p>Contact me:
+                +46 720 12 85 94 
+                lindaa.neziri@gmail.com</p>
+
+        </form> <!--Jag ville också hålla denna sida simpel för att inte det ska bli för överväldigande för användaren.-->
+        
+       </section>
+
+       <script src="script.js"></script>
+</body>
+</html>

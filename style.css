@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+
+}
+
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    padding: 35px;
+}
+
+.underrubrik {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.topnav{
+    text-align: center;
+    background-color: none;
+    padding:30px;
+    font-size: 20px;
+    
+}
+
+.topnav a{
+    color: black;
+    padding:100px;
+    
+}
+
+.topnav a:hover{
+    color:blue;
+}
+
+
+img {
+    border-radius: 05%;
+    box-shadow: 0px 0px 20px black;
+    width: 300px;
+    height: 700px;
+  }
+
+  img:hover {
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+    
+  }
+
+  button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    
+  }
+
+  button:hover {
+    background-color: #FFDED8;
+    color: black;
+    transform:scale(1.3,1.3);
+    -webkit-transform:scale(1.3,1.3);
+    -moz-transform:scale(1.3,1.3);
+    }
+
+    #btn1 {
+        background-color: blACK;
+        color: #FFDED8;
+        border: none;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+
+    /*De funktioner jag har använt mig av för att förstora saker medan jag hovrar har jag hittat på W3-schools*/
+
+    #btn1:hover {
+        background-color: white;
+        color: black;
+        border: solid black 1px;
+        padding: 20px 40px;
+        border-radius: 20px;
+    }
+.content{
+    display:flex;
+    padding: 0px;
+    color: #093F5E;
+    background-color: #FFEE96;
+    text-align: center;
+    
+}
+
+.content:hover, .content2:hover, .content3:hover{
+    color: #FFDED8;
+    background: black;
+}
+
+  .cont-child-img{
+    flex: 1;
+    padding: 10px;
+    align-items: flex-start;
+    
+}
+
+.cont-child1{
+    flex: 1;
+    padding: 0px;
+    font-size: 45px;
+    align-items: flex-end;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%
+}
+
+.content2 {
+
+    display:flex;
+    padding: 0px;
+    color: #F8B9AF;
+    background-color: #356767;
+    text-align: center;
+      
+}
+
+.cont-child-img2{
+    flex: 1;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.cont-child2{
+    flex: 1;
+    padding: 0px;
+    font-size: 45px;
+    align-items: flex-end;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%
+}
+
+.content3 {
+    display:flex;
+    padding: 0px;
+    color: black;
+    background-color: #FFE8C6;
+    text-align: center;
+}
+
+.cont-child-img3{
+    flex: 1;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.cont-child3{
+    flex: 1;
+    padding: 0px;
+    font-size: 45px;
+    align-items: flex-end;
+    margin-right: 10%;
+    margin-top: 5%
+}
+
+.form {
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 50px;
+    
+}
+  
+#msg{
+    height: 200px;
+    width: 300px;
+}
+
+.contact {
+   margin-bottom: 50px;
+   font-size: 15px;
+   margin-bottom: 500px;
+}
+
+#fname, #email, #msg {
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+#fname, #email {
+    width: 300px;
+    height: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 100%;
+    margin-top:50px;
+    text-align: center;
+}
+
+.aboutme {
+    flex: 1;
+    align-items: center;
+    margin: 0px 500px 500px 500px;
+}
+
+button a{
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    }
+
+    button a:hover{
+        background-color: white;
+        color: black; 
+        
+    }
+
+
+
+@media all and (max-width: 940px) {
+
+    .topnav a {
+        padding: 17px;
+    }
+
+    .cont-child1, .cont-child2, .cont-child3 {
+        font-size: 30px;
+    }
+
+  
+    }
+  
+@media all and (max-width: 700px) {
+    .header {
+        text-align: center;
+        font-size: 20px;
+        padding: 25px;
+    }
+    
+    .underrubrik {
+        text-align: center;
+        font-size: 15px;
+        padding: 15px;
+    }
+    
+    .topnav{
+        text-align: center;
+        padding:10px;
+        font-size: 12px;
+        
+    }
+    
+    .topnav a{
+        color: black;
+        padding:60px;
+    }
+
+    .content, .content2, .content3{
+        flex-wrap: wrap;   
+    }
+
+
+    .cont-child1, .cont-child2, .cont-child3{
+        font-size: 20px;
+    }
+
+    img{
+        width: 150px;
+        height: 350px;
+    }
+    
+    button{
+        padding: 10px 25px;
+    }
+
+    .form {
+        text-align: center;
+        padding: 0px;
+        height: 100px;
+    }
+     .about {
+         font-size:smaller;
+     }
+    @media all and (max-width: 555px) {
+
+        .topnav a {
+            padding: 15px;
+        }
+      
+        }
+    @media all and (max-width: 500px) {
+        .header {
+            margin: 0px;
+        }
+    
+        .underrubrik {
+            margin: 0px;
+        }
+    
+        .topnav a{
+            margin: 0px;
+        }
+    
+        .content, .content2, .content3{
+            flex-wrap: wrap;   
+        }
+    
+        .cont-child-img, .cont-child-img2, .cont-child-img3 {
+            flex: auto;
+            margin-left: 0;
+            padding: 10x;
+        }
+    
+        .cont-child1, .cont-child2, .cont-child3 {
+            font-size: smaller;
+        }
+
+        button{
+            padding: 10px 15px;
+            font-size: 10px;
+
+        }
+    
+        }
+
+        @media all and (max-width: 500px) {
+            .content, .content2, .content3{
+                flex-wrap: wrap;   
+            }
+        
+            .cont-child-img, .cont-child-img2, .cont-child-img3 {
+                flex: auto;
+                margin-left: 0;
+                padding: 10x;
+            }
+        
+            .cont-child1, .cont-child2, .cont-child3 {
+                font-size: 10px;
+            }
+        }
+        }
